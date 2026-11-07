@@ -1,0 +1,39 @@
+# Local environment and generated outputs
+.venv/
+venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+node_modules/
+.coverage
+htmlcov/
+
+# Runtime information must stay local
+data/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Generate synthetic inputs locally instead of publishing large data files
+evidence/simulated/
+evidence/raw/
+evidence/tests/
+outputs/
+materials/
+manuscript/
+*.docx
+*.pdf
+*.zip
+.DS_Store
+Thumbs.db
